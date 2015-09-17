@@ -13,6 +13,9 @@
 		D356417E1BA7B30800CFC186 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D356417D1BA7B30800CFC186 /* Images.xcassets */; };
 		D35641811BA7B30800CFC186 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D356417F1BA7B30800CFC186 /* LaunchScreen.xib */; };
 		D356418D1BA7B30800CFC186 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356418C1BA7B30800CFC186 /* PostcardTests.swift */; };
+		D35641971BA7B5DB00CFC186 /* Launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = D35641961BA7B5DB00CFC186 /* Launcher.png */; };
+		D35641991BA7B6F600CFC186 /* Launcher2.png in Resources */ = {isa = PBXBuildFile; fileRef = D35641981BA7B6F600CFC186 /* Launcher2.png */; };
+		D356419B1BA7C0A800CFC186 /* stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D356419A1BA7C0A800CFC186 /* stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		D35641861BA7B30800CFC186 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D356418B1BA7B30800CFC186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D356418C1BA7B30800CFC186 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		D35641961BA7B5DB00CFC186 /* Launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launcher.png; sourceTree = "<group>"; };
+		D35641981BA7B6F600CFC186 /* Launcher2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launcher2.png; sourceTree = "<group>"; };
+		D356419A1BA7C0A800CFC186 /* stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		D35641741BA7B30800CFC186 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D356419A1BA7C0A800CFC186 /* stamp.jpg */,
+				D35641981BA7B6F600CFC186 /* Launcher2.png */,
+				D35641961BA7B5DB00CFC186 /* Launcher.png */,
 				D35641751BA7B30800CFC186 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D356417C1BA7B30800CFC186 /* Main.storyboard in Resources */,
+				D356419B1BA7C0A800CFC186 /* stamp.jpg in Resources */,
+				D35641971BA7B5DB00CFC186 /* Launcher.png in Resources */,
+				D35641991BA7B6F600CFC186 /* Launcher2.png in Resources */,
 				D35641811BA7B30800CFC186 /* LaunchScreen.xib in Resources */,
 				D356417E1BA7B30800CFC186 /* Images.xcassets in Resources */,
 			);
